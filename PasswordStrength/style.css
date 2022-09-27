@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -13,4 +11,15 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
+}
+
+.background {
+    background: url('./pexels-pixabay-273935.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: -20px;
+    bottom: -20px;
+    left: -20px;
+    right: -20px;
+    z-index: -1;
+    filter: blur(20px);
 }
